@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37BB4E75199D17BF00349C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E74199D17BF00349C48 /* Foundation.framework */; };
+		37BB4E77199D17BF00349C48 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E76199D17BF00349C48 /* CoreGraphics.framework */; };
+		37BB4E79199D17BF00349C48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E78199D17BF00349C48 /* UIKit.framework */; };
+		37BB4E7F199D17BF00349C48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4E7D199D17BF00349C48 /* InfoPlist.strings */; };
+		37BB4E81199D17BF00349C48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E80199D17BF00349C48 /* main.m */; };
+		37BB4E85199D17BF00349C48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E84199D17BF00349C48 /* AppDelegate.m */; };
+		37BB4E88199D17BF00349C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4E86199D17BF00349C48 /* Main.storyboard */; };
+		37BB4E8B199D17BF00349C48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E8A199D17BF00349C48 /* ViewController.m */; };
+		37BB4E8D199D17BF00349C48 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4E8C199D17BF00349C48 /* Images.xcassets */; };
+		37BB4E94199D17BF00349C48 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E93199D17BF00349C48 /* XCTest.framework */; };
+		37BB4E95199D17BF00349C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E74199D17BF00349C48 /* Foundation.framework */; };
+		37BB4E96199D17BF00349C48 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BB4E78199D17BF00349C48 /* UIKit.framework */; };
+		37BB4E9E199D17BF00349C48 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4E9C199D17BF00349C48 /* InfoPlist.strings */; };
+		37BB4EA0199D17BF00349C48 /* GalaxyQuestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E9F199D17BF00349C48 /* GalaxyQuestTests.m */; };
+		37BB4EAC199D185600349C48 /* A_flock_of_stars.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4EA9199D185600349C48 /* A_flock_of_stars.jpg */; };
+		37BB4EAD199D185600349C48 /* Galaxy-background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4EAA199D185600349C48 /* Galaxy-background.jpg */; };
+		37BB4EAE199D185600349C48 /* galaxy-wallpapers-10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 37BB4EAB199D185600349C48 /* galaxy-wallpapers-10.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37BB4E97199D17BF00349C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 37BB4E69199D17BF00349C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37BB4E70199D17BF00349C48;
+			remoteInfo = GalaxyQuest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		37BB4E71199D17BF00349C48 /* GalaxyQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxyQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB4E74199D17BF00349C48 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		37BB4E76199D17BF00349C48 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		37BB4E78199D17BF00349C48 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		37BB4E7C199D17BF00349C48 /* GalaxyQuest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GalaxyQuest-Info.plist"; sourceTree = "<group>"; };
+		37BB4E7E199D17BF00349C48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37BB4E80199D17BF00349C48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37BB4E82199D17BF00349C48 /* GalaxyQuest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GalaxyQuest-Prefix.pch"; sourceTree = "<group>"; };
+		37BB4E83199D17BF00349C48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37BB4E84199D17BF00349C48 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37BB4E87199D17BF00349C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37BB4E89199D17BF00349C48 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		37BB4E8A199D17BF00349C48 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		37BB4E8C199D17BF00349C48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		37BB4E92199D17BF00349C48 /* GalaxyQuestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GalaxyQuestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37BB4E93199D17BF00349C48 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		37BB4E9B199D17BF00349C48 /* GalaxyQuestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GalaxyQuestTests-Info.plist"; sourceTree = "<group>"; };
+		37BB4E9D199D17BF00349C48 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		37BB4E9F199D17BF00349C48 /* GalaxyQuestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GalaxyQuestTests.m; sourceTree = "<group>"; };
+		37BB4EA9199D185600349C48 /* A_flock_of_stars.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = A_flock_of_stars.jpg; sourceTree = "<group>"; };
+		37BB4EAA199D185600349C48 /* Galaxy-background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Galaxy-background.jpg"; sourceTree = "<group>"; };
+		37BB4EAB199D185600349C48 /* galaxy-wallpapers-10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "galaxy-wallpapers-10.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37BB4E6E199D17BF00349C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4E77199D17BF00349C48 /* CoreGraphics.framework in Frameworks */,
+				37BB4E79199D17BF00349C48 /* UIKit.framework in Frameworks */,
+				37BB4E75199D17BF00349C48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BB4E8F199D17BF00349C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4E94199D17BF00349C48 /* XCTest.framework in Frameworks */,
+				37BB4E96199D17BF00349C48 /* UIKit.framework in Frameworks */,
+				37BB4E95199D17BF00349C48 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37BB4E68199D17BF00349C48 = {
+			isa = PBXGroup;
+			children = (
+				37BB4EA9199D185600349C48 /* A_flock_of_stars.jpg */,
+				37BB4EAA199D185600349C48 /* Galaxy-background.jpg */,
+				37BB4EAB199D185600349C48 /* galaxy-wallpapers-10.jpg */,
+				37BB4E7A199D17BF00349C48 /* GalaxyQuest */,
+				37BB4E99199D17BF00349C48 /* GalaxyQuestTests */,
+				37BB4E73199D17BF00349C48 /* Frameworks */,
+				37BB4E72199D17BF00349C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37BB4E72199D17BF00349C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E71199D17BF00349C48 /* GalaxyQuest.app */,
+				37BB4E92199D17BF00349C48 /* GalaxyQuestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37BB4E73199D17BF00349C48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E74199D17BF00349C48 /* Foundation.framework */,
+				37BB4E76199D17BF00349C48 /* CoreGraphics.framework */,
+				37BB4E78199D17BF00349C48 /* UIKit.framework */,
+				37BB4E93199D17BF00349C48 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		37BB4E7A199D17BF00349C48 /* GalaxyQuest */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E83199D17BF00349C48 /* AppDelegate.h */,
+				37BB4E84199D17BF00349C48 /* AppDelegate.m */,
+				37BB4E86199D17BF00349C48 /* Main.storyboard */,
+				37BB4E89199D17BF00349C48 /* ViewController.h */,
+				37BB4E8A199D17BF00349C48 /* ViewController.m */,
+				37BB4E8C199D17BF00349C48 /* Images.xcassets */,
+				37BB4E7B199D17BF00349C48 /* Supporting Files */,
+			);
+			path = GalaxyQuest;
+			sourceTree = "<group>";
+		};
+		37BB4E7B199D17BF00349C48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E7C199D17BF00349C48 /* GalaxyQuest-Info.plist */,
+				37BB4E7D199D17BF00349C48 /* InfoPlist.strings */,
+				37BB4E80199D17BF00349C48 /* main.m */,
+				37BB4E82199D17BF00349C48 /* GalaxyQuest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		37BB4E99199D17BF00349C48 /* GalaxyQuestTests */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E9F199D17BF00349C48 /* GalaxyQuestTests.m */,
+				37BB4E9A199D17BF00349C48 /* Supporting Files */,
+			);
+			path = GalaxyQuestTests;
+			sourceTree = "<group>";
+		};
+		37BB4E9A199D17BF00349C48 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37BB4E9B199D17BF00349C48 /* GalaxyQuestTests-Info.plist */,
+				37BB4E9C199D17BF00349C48 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37BB4E70199D17BF00349C48 /* GalaxyQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BB4EA3199D17BF00349C48 /* Build configuration list for PBXNativeTarget "GalaxyQuest" */;
+			buildPhases = (
+				37BB4E6D199D17BF00349C48 /* Sources */,
+				37BB4E6E199D17BF00349C48 /* Frameworks */,
+				37BB4E6F199D17BF00349C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GalaxyQuest;
+			productName = GalaxyQuest;
+			productReference = 37BB4E71199D17BF00349C48 /* GalaxyQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		37BB4E91199D17BF00349C48 /* GalaxyQuestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37BB4EA6199D17BF00349C48 /* Build configuration list for PBXNativeTarget "GalaxyQuestTests" */;
+			buildPhases = (
+				37BB4E8E199D17BF00349C48 /* Sources */,
+				37BB4E8F199D17BF00349C48 /* Frameworks */,
+				37BB4E90199D17BF00349C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37BB4E98199D17BF00349C48 /* PBXTargetDependency */,
+			);
+			name = GalaxyQuestTests;
+			productName = GalaxyQuestTests;
+			productReference = 37BB4E92199D17BF00349C48 /* GalaxyQuestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37BB4E69199D17BF00349C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nicolas Semenas";
+				TargetAttributes = {
+					37BB4E91199D17BF00349C48 = {
+						TestTargetID = 37BB4E70199D17BF00349C48;
+					};
+				};
+			};
+			buildConfigurationList = 37BB4E6C199D17BF00349C48 /* Build configuration list for PBXProject "GalaxyQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37BB4E68199D17BF00349C48;
+			productRefGroup = 37BB4E72199D17BF00349C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37BB4E70199D17BF00349C48 /* GalaxyQuest */,
+				37BB4E91199D17BF00349C48 /* GalaxyQuestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37BB4E6F199D17BF00349C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4E8D199D17BF00349C48 /* Images.xcassets in Resources */,
+				37BB4E7F199D17BF00349C48 /* InfoPlist.strings in Resources */,
+				37BB4EAC199D185600349C48 /* A_flock_of_stars.jpg in Resources */,
+				37BB4E88199D17BF00349C48 /* Main.storyboard in Resources */,
+				37BB4EAD199D185600349C48 /* Galaxy-background.jpg in Resources */,
+				37BB4EAE199D185600349C48 /* galaxy-wallpapers-10.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BB4E90199D17BF00349C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4E9E199D17BF00349C48 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37BB4E6D199D17BF00349C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4E8B199D17BF00349C48 /* ViewController.m in Sources */,
+				37BB4E85199D17BF00349C48 /* AppDelegate.m in Sources */,
+				37BB4E81199D17BF00349C48 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37BB4E8E199D17BF00349C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37BB4EA0199D17BF00349C48 /* GalaxyQuestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37BB4E98199D17BF00349C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 37BB4E70199D17BF00349C48 /* GalaxyQuest */;
+			targetProxy = 37BB4E97199D17BF00349C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		37BB4E7D199D17BF00349C48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BB4E7E199D17BF00349C48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		37BB4E86199D17BF00349C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BB4E87199D17BF00349C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37BB4E9C199D17BF00349C48 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37BB4E9D199D17BF00349C48 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37BB4EA1199D17BF00349C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37BB4EA2199D17BF00349C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37BB4EA4199D17BF00349C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyQuest/GalaxyQuest-Prefix.pch";
+				INFOPLIST_FILE = "GalaxyQuest/GalaxyQuest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		37BB4EA5199D17BF00349C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyQuest/GalaxyQuest-Prefix.pch";
+				INFOPLIST_FILE = "GalaxyQuest/GalaxyQuest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		37BB4EA7199D17BF00349C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GalaxyQuest.app/GalaxyQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyQuest/GalaxyQuest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GalaxyQuestTests/GalaxyQuestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		37BB4EA8199D17BF00349C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GalaxyQuest.app/GalaxyQuest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GalaxyQuest/GalaxyQuest-Prefix.pch";
+				INFOPLIST_FILE = "GalaxyQuestTests/GalaxyQuestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37BB4E6C199D17BF00349C48 /* Build configuration list for PBXProject "GalaxyQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BB4EA1199D17BF00349C48 /* Debug */,
+				37BB4EA2199D17BF00349C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37BB4EA3199D17BF00349C48 /* Build configuration list for PBXNativeTarget "GalaxyQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BB4EA4199D17BF00349C48 /* Debug */,
+				37BB4EA5199D17BF00349C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		37BB4EA6199D17BF00349C48 /* Build configuration list for PBXNativeTarget "GalaxyQuestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37BB4EA7199D17BF00349C48 /* Debug */,
+				37BB4EA8199D17BF00349C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37BB4E69199D17BF00349C48 /* Project object */;
+}
